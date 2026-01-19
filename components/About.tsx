@@ -85,9 +85,7 @@ const About: React.FC = () => {
               <p>
                 Desde cedo, como muitos, sou apaixonado pela computação por conta dos jogos eletrônicos e o fascínio pelos sites e códigos que faziam tudo funcionar, imagens aparecendo, botões que redirecionam para outra página, chat e publicações ao vivo.
               </p>
-              <p>
-                Na parte de hardware, gostava de abrir os meus computadores para ver todos os componentes e o que faziam. Como era difícil ter um na época, tomava bastante cuidado e passava a procurar em guias, manuais, revistas ou simplesmente testá-los.
-              </p>
+            
               <p>
                 O conhecimento e a busca de novidades tecnológicas me despertaram essa vontade de utilizá-la ao meu favor, não só para distração mas para trabalhos futuros de desenvolvimento de sites, automação de sistemas e criação de aplicativos desktop para converter algum arquivo ou separá-los. Mesmo que simples, eram funcionais e não davam tanto trabalho em fazê-los.
               </p>
