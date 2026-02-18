@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-2">
             <a href="#home" onClick={(e) => scrollToId(e, 'home')} className="flex items-center mb-6 group">
-              <img 
-                src="https://i.imgur.com/pW2a4ev.png" 
-                alt="Giral Studio Logo" 
+              <img
+                src="https://i.imgur.com/pW2a4ev.png"
+                alt="Giral Studio Logo"
                 className="h-28 md:h-36 w-auto object-contain transition-transform duration-300 group-hover:scale-105 brightness-0 invert"
               />
             </a>
@@ -38,32 +38,32 @@ const Footer: React.FC = () => {
               Serviços digitais que atua na interseção entre tecnologia e criatividade. Criando experiências digitais com alma.
             </p>
             <div className="flex gap-4">
-              <a 
-                href="https://www.instagram.com/giralstudio1_/" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/giralstudio1_/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[#A4BAD2] hover:bg-[#A4BAD2] hover:text-[#0D2A4A] transition-all"
               >
                 <Instagram className="w-4 h-4" />
               </a>
-              <a 
-                href="https://www.linkedin.com/in/gabriel-giraldelli-98134318b/" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/gabriel-giraldelli-santos-98134318b/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[#A4BAD2] hover:bg-[#A4BAD2] hover:text-[#0D2A4A] transition-all"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a 
-                href="https://github.com/giraldelli?tab=repositories" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://github.com/giraldelli?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[#A4BAD2] hover:bg-[#A4BAD2] hover:text-[#0D2A4A] transition-all"
               >
                 <Github className="w-4 h-4" />
               </a>
-              <a 
-                href="mailto:giraldelli.studio@gmail.com?subject=Contato via Portfólio - Giral Studio" 
+              <a
+                href="mailto:giraldelli.studio@gmail.com?subject=Contato via Portfólio - Giral Studio"
                 className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-[#A4BAD2] hover:bg-[#A4BAD2] hover:text-[#0D2A4A] transition-all"
               >
                 <Mail className="w-4 h-4" />

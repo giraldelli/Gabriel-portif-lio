@@ -16,9 +16,9 @@ const About: React.FC = () => {
     <section className="py-32 px-6 bg-[#A4BAD2]/10 relative overflow-hidden">
       {/* Zona de Fusão Superior (Vindo do Hero) */}
       <div className="absolute inset-x-0 top-0 h-64 bg-gradient-to-b from-[#DCE3ED] via-[#DCE3ED]/80 to-transparent pointer-events-none z-10"></div>
-      
+
       {/* Background Parallax Element */}
-      <div 
+      <div
         className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none"
         style={{
           backgroundImage: `url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1200')`,
@@ -34,9 +34,9 @@ const About: React.FC = () => {
           {/* Image Column */}
           <div className="flex-1 relative w-full max-w-lg lg:max-w-none">
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl transition-all duration-700 hover:scale-[1.02]">
-              <img 
-                src="https://i.imgur.com/J3L1VHV.jpeg" 
-                alt="Gabriel Giraldelli Santos - Analista e Designer Digital" 
+              <img
+                src="https://i.imgur.com/J3L1VHV.jpeg"
+                alt="Gabriel Giraldelli Santos - Analista e Designer Digital"
                 className="w-full h-auto grayscale-[0.2] hover:grayscale-0 transition-all duration-1000 object-cover aspect-[4/5]"
                 style={{
                   transform: `translateY(${(scrollY - 800) * 0.05}px)`,
@@ -49,17 +49,17 @@ const About: React.FC = () => {
                 <p className="text-xs uppercase tracking-[0.2em] font-bold opacity-80">Founder & Analista Designer</p>
               </div>
             </div>
-            
+
             {/* Decorative frame elements with Parallax */}
-            <div 
+            <div
               className="absolute -top-6 -left-6 w-32 h-32 border-t-2 border-l-2 border-[#43627F]/30 rounded-tl-3xl -z-10 transition-transform duration-75 ease-out"
               style={{ transform: `translateY(${(scrollY - 800) * -0.05}px)` }}
             ></div>
-            <div 
+            <div
               className="absolute -bottom-6 -right-6 w-32 h-32 border-b-2 border-r-2 border-[#43627F]/30 rounded-br-3xl -z-10 transition-transform duration-75 ease-out"
               style={{ transform: `translateY(${(scrollY - 800) * 0.08}px)` }}
             ></div>
-            <div 
+            <div
               className="absolute top-12 -right-12 w-full h-full border-2 border-[#43627F]/10 rounded-[2.5rem] -z-20 rotate-[3deg] transition-transform duration-75 ease-out"
               style={{ transform: `translateY(${(scrollY - 800) * 0.02}px)` }}
             ></div>
@@ -77,7 +77,7 @@ const About: React.FC = () => {
                 <span className="italic text-[#43627F]">Giraldelli Santos</span>
               </h3>
             </div>
-            
+
             <div className="space-y-6 text-[#0D2A4A]/80 leading-relaxed text-lg font-light">
               <p>
                 Me chamo Gabriel Giraldelli Santos, nascido em Porto Velho RO (1999), sou formado em Análise e Desenvolvimento de Sistemas na faculdade técnica FATEC, formado em designer digital na faculdade GRACOM e pós-graduado em Cyber segurança.
@@ -85,7 +85,7 @@ const About: React.FC = () => {
               <p>
                 Desde cedo, como muitos, sou apaixonado pela computação por conta dos jogos eletrônicos e o fascínio pelos sites e códigos que faziam tudo funcionar, imagens aparecendo, botões que redirecionam para outra página, chat e publicações ao vivo.
               </p>
-            
+
               <p>
                 O conhecimento e a busca de novidades tecnológicas me despertaram essa vontade de utilizá-la ao meu favor, não só para distração mas para trabalhos futuros de desenvolvimento de sites, automação de sistemas e criação de aplicativos desktop para converter algum arquivo ou separá-los. Mesmo que simples, eram funcionais e não davam tanto trabalho em fazê-los.
               </p>
@@ -93,7 +93,7 @@ const About: React.FC = () => {
                 "Hoje me sinto um analista com alma de artista, criando landing pages simples mas elegantes e visualmente intuitivas."
               </p>
             </div>
-            
+
             {/* Stats/Highlight Boxes */}
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4">
               <div className="space-y-1">
@@ -111,17 +111,17 @@ const About: React.FC = () => {
             </div>
 
             <div className="pt-8 flex flex-wrap gap-4">
-               <a 
-                href="https://www.linkedin.com/in/gabriel-giraldelli-98134318b/" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/gabriel-giraldelli-santos-98134318b/"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-[#0D2A4A] text-[#DCE3ED] rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-[#43627F] transition-all"
               >
                 LinkedIn Professional
               </a>
-              <a 
-                href="https://wa.me/5565981218157" 
-                target="_blank" 
+              <a
+                href="https://wa.me/5565981218157"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border border-[#0D2A4A]/20 text-[#0D2A4A] rounded-xl text-xs font-bold uppercase tracking-widest hover:bg-[#0D2A4A] hover:text-[#DCE3ED] transition-all"
               >
